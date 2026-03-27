@@ -1,0 +1,73 @@
+<div class="container">
+  <section class="page-hero">
+    <div>
+      <h1>Contact</h1>
+      <p>Let’s create something special together 💕</p>
+    </div>
+    <img src="assets/images/contact_hero.png" width="600" height="400" alt="Illustration of envelope, phone with chat bubble and gift box" loading="lazy">
+  </section>
+
+  <section class="contact-grid">
+    <div class="contact-card">
+      <h2>Say Hello</h2>
+      <a class="btn primary" href="https://wa.me/919999999999?text=Hi%20Mahi%2C%20I%20would%20love%20to%20order%20from%20OMG%20Gifts." target="_blank" rel="noopener">
+        <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none">
+          <path d="M20 11.5a8.5 8.5 0 0 1-12.9 7.2L4 20l1.3-3.1A8.5 8.5 0 1 1 20 11.5Z" stroke="#6b4a4a" stroke-width="1.5" fill="none"/>
+          <path d="M9.5 8.5c.2-.6.9-.8 1.1-.8.2 0 .6 0 1 .8.3.8.8 1.8 1.7 2.6.9.8 1.8 1.3 2.6 1.6.7.3.8.8.8 1 0 .2-.2.9-.8 1.1-.6.2-1 .1-1.6-.1-.6-.2-1.9-.7-3-1.7-1.1-1-1.7-2.3-2-2.9-.3-.6-.5-1.2-.4-1.6Z" fill="#6b4a4a"/>
+        </svg> Chat on WhatsApp
+      </a>
+      <p>
+        <a href="https://instagram.com/" target="_blank" rel="noopener">
+          <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none">
+            <rect x="3" y="3" width="18" height="18" rx="5" stroke="#6b4a4a" stroke-width="1.5"/>
+            <circle cx="12" cy="12" r="4" stroke="#6b4a4a" stroke-width="1.5"/>
+            <circle cx="17.5" cy="6.5" r="1" fill="#6b4a4a"/>
+          </svg> Follow on Instagram
+        </a>
+      </p>
+      <p>
+        <a href="mailto:hello@omggifts.example">
+          <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none">
+            <rect x="3" y="5" width="18" height="14" rx="2" stroke="#6b4a4a" stroke-width="1.5"/>
+            <path d="M4 7l8 6 8-6" stroke="#6b4a4a" stroke-width="1.5" fill="none"/>
+          </svg> hello&#64;omggifts.example
+        </a>
+      </p>
+    </div>
+    <form class="contact-form" (submit)="onSubmitContact()">
+      <label>Name<input type="text" name="name" placeholder="Your name" required></label>
+      <label>Email<input type="email" name="email" placeholder="you&#64;example.com" required></label>
+      <label>Message<textarea name="message" placeholder="Your message" required></textarea></label>
+      <button class="btn" type="submit">Send</button>
+    </form>
+  </section>
+
+  <section class="newsletter">
+    <h2>Join our candle club</h2>
+    <p>Get cozy tips, launches, and tiny surprises in your inbox.</p>
+    <form class="news-form" (submit)="onSubmitNewsletter()">
+      <input type="email" placeholder="Your email" required>
+      <button class="btn">Subscribe</button>
+    </form>
+  </section>
+
+  <section class="faq container">
+    <h2>Frequently Asked Questions</h2>
+    <details>
+      <summary>What is the turnaround time for orders?</summary>
+      <p>Most orders are hand prepared and dispatched within 2–3 working days. Delivery within India typically takes an additional 3–5 days.</p>
+    </details>
+    <details>
+      <summary>Do you offer bulk or corporate gifting?</summary>
+      <p>Yes! We love helping businesses and events with custom gifting solutions. Please send us a message with your requirements and we’ll curate something special.</p>
+    </details>
+    <details>
+      <summary>Can I customise scents or packaging?</summary>
+      <p>Absolutely. Many of our products are made-to-order. Let us know your preferred fragrance, colour palette, or message and we’ll make it happen.</p>
+    </details>
+    <details>
+      <summary>What payment methods do you accept?</summary>
+      <p>We accept secure UPI and net banking payments via WhatsApp checkout. Cash on delivery is currently unavailable.</p>
+    </details>
+  </section>
+</div>
